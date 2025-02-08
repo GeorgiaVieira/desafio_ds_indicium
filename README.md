@@ -4,7 +4,7 @@
 A EDA está no arquivo EDA.ipynb. Nela explorei algumas visões e distribuíções, principalmente focadas nas visões relacionadas ao bairro. Uma coisa interessante, é que notei que lugares perto das torres gêmeas e do central park possuem os valores mais altos
 
 ## 3 - Modelagem (model.ipynb)
-Optei por usar uma regressão linear do sktlearn uma RandomForestRegression para gerar os modelos. Gerei os modelos considerando primeiro o bairro_group, depois utilizei o bairro para comparar ambos. Utilizar o bairro resultou em um modelo melhor, mas parece que entre o random forest e a regressão linear a diferença não foi tão grande. Salvei o modelo por bairro tanto da regressão linear quanto do random forest nos arquivos modelo_linear_regression.pkl, modelo_random_forest.pkl respectivamente
+Optei por usar uma regressão linear do sktlearn uma classificação com RandomForestRegression para gerar os modelos. Gerei os modelos considerando primeiro o bairro_group, depois utilizei o bairro para comparar ambos. Utilizar o bairro resultou em um modelo melhor, mas parece que entre o random forest e a regressão linear a diferença não foi tão grande. Salvei o modelo por bairro tanto da regressão linear quanto do random forest nos arquivos modelo_linear_regression.pkl, modelo_random_forest.pkl respectivamente
 
 Passos:
 
